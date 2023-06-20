@@ -1,0 +1,33 @@
+{
+    "name": "celo_decentralized_identity",
+    "version": "1.0.0",
+    "description": "Custom Celo Composer project.",
+    "private": true,
+    "author": "Celo",
+    "license": "MIT",
+    "scripts": {
+        "hardhat:test": "yarn workspace @celo_decentralized_identity/hardhat test",
+        "hardhat:test-local": "yarn workspace @celo_decentralized_identity/hardhat test-local",
+        "hardhat:accounts": "yarn workspace @celo_decentralized_identity/hardhat accounts",
+        "hardhat:devchain": "yarn workspace @celo_decentralized_identity/hardhat devchain",
+        "hardhat:deploy": "yarn workspace @celo_decentralized_identity/hardhat deploy",
+        "hardhat:deploy-reset-watch": "yarn workspace @celo_decentralized_identity/hardhat deploy-reset-watch",
+        "hardhat:watch": "yarn workspace @celo_decentralized_identity/hardhat watch",
+        "hardhat:fork-mainnet": "yarn workspace @celo_decentralized_identity/hardhat fork-mainnet"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/celo-org/celo-composer.git"
+    },
+    "bugs": {
+        "url": "https://github.com/celo-org/celo-composer/issues"
+    },
+    "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "celo-composer",
+        "celo"
+    ]
+}
